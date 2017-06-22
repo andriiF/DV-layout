@@ -32,6 +32,13 @@ function previousSlide() {
     slides[currentSlide].className = 'slide showing';
     idicators[currentSlide].className = 'fa fa-circle-o fa-circle';
 }
+function goToSlider(n) {
+    slides[currentSlide].className = 'slide';
+    idicators[currentSlide].className = 'fa fa-circle-o';
+    currentSlide = n;
+    slides[currentSlide].className = 'slide showing';
+    idicators[currentSlide].className = 'fa fa-circle-o fa-circle';
+}
 
 function buttonClick() {
     var elem = document.getElementsByClassName("toogleList");
