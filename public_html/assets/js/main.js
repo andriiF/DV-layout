@@ -1,3 +1,7 @@
+var slides;
+var idicators;
+var currentSlide;
+var slideInterval;
 window.onload = function () {
     var elem = document.getElementsByClassName("toogleList");
     elem[0].style.height = "0";
@@ -7,7 +11,7 @@ window.onload = function () {
     slideInterval = setInterval(nextSlide, 5000);
 
 
-}
+};
 function nextSlide() {
     if (screen.width <= 640) {
         slides[currentSlide].className = 'slide';
@@ -33,13 +37,13 @@ function buttonClick() {
     var elem = document.getElementsByClassName("toogleList");
     var menu = document.getElementById("menuToogle");
     if (elem[0].style.height == "0px") {
-        for (i = 0; i < elem.length; i++) {
+        for (var i = 0; i < elem.length; i++) {
             elem[i].style.height = "auto";
         }
         menu.style.display = "block";
     } else {
-        for (i = 0; i < elem.length; i++) {
-            elem[i].style.height = "0";
+        for (var j = 0; j < elem.length; j++) {
+            elem[j].style.height = "0";
         }
         menu.style.display = "none";
     }
