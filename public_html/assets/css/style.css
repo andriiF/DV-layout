@@ -115,7 +115,6 @@ body {
   background: -o-linear-gradient(left, #b7deed 0%, #71ceef 0%, #21b4e2 23%, #17afc4 69%, #17afc4 100%);
   background: -ms-linear-gradient(left, #b7deed 0%, #71ceef 0%, #21b4e2 23%, #17afc4 69%, #17afc4 100%);
   background: linear-gradient(to right, #b7deed 0%, #71ceef 0%, #21b4e2 23%, #17afc4 69%, #17afc4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b7deed', endColorstr='#17afc4', GradientType=1);
   text-align: left;
   padding: 100px 57px;
 }
@@ -271,7 +270,7 @@ body {
 .description .text p {
   margin-bottom: 30px;
   color: #515151;
-  font-size: 17   px;
+  font-size: 17px;
   letter-spacing: 1px;
 }
 @media (max-width: 640px) {
@@ -280,7 +279,6 @@ body {
     position: absolute;
     z-index: 99;
     bottom: 10px;
-    /* height: 34px; */
     left: -9999px;
     margin: auto;
     right: -9998px;
@@ -338,31 +336,4 @@ body {
     height: 300px;
   }
 }
-/*
-@media  (max-width:480px) {
-    body {
-        font-size: 0.8em;
-    }
-    .img-wrap {
-        float: none;
-        width:60%;
-        margin: 0 auto;
-    }
-}
-@media  (max-width:768px) {
-    nav ul {
-        display: none;
-    }
-    select {
-        width: 60%;
-        display: inline-block;
-    }
-
-}
-@media (min-width:481px) and (max-width:800px) {
-    body {
-        font-size: 1em;
-    }
-
-}*/
 /*# sourceMappingURL=style.css.map */
